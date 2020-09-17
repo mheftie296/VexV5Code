@@ -16,7 +16,9 @@
 #include "v5_vcs.h"
 
 #include "robot-config.h"
-
+extern int x;
+extern int y;
+extern double axis;
 #define waitUntil(condition)                                                   \
   do {                                                                         \
     wait(5, msec);                                                             \
